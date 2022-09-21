@@ -1,4 +1,3 @@
-from secrets import choice
 from django.db import models
 
 # Create your models here.

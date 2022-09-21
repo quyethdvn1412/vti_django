@@ -5,6 +5,7 @@ from . import views
 #     path('', views.index, name='index'),
 # ]
 
+app_name = 'polls'
 urlpatterns = [
     # ex: /polls/
     path('', views.index, name='index'),
