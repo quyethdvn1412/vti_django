@@ -1,0 +1,11 @@
+<h1>ADD NEW USER</h1>
+
+<form action=" {% url 'asigm_1_app:add_new_user' %} " method="post">
+    {% csrf_token %}
+        <p>Name: </p><input type="text" name="name" id="person{{ forloop.counter }}" value="{{ person.name }}">
+        <p>Age: </p><input type="number" name="age" id="person{{ forloop.counter }}" value="{{ person.age }}">
+        <p>Address: </p><input type="text" name="address" id="person{{ forloop.counter }}" value="{{ person.address }}">
+        <p>Phone: </p><input type="text" name="mobile_number" id="person{{ forloop.counter }}" value="{{ person.mobile_number }}">
+        <br>
+    <input type="submit" value="Add">
+</form>
