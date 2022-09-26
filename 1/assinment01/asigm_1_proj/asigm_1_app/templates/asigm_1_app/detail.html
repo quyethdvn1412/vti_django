@@ -1,0 +1,18 @@
+<h1>{{ question.question_text }}</h1>
+
+{% if error_message %}
+
+<strong>{{ error_message }}</strong>
+
+{% endif %}
+
+<form action="{% url 'asigm_1_app:add' person.id %}" method="post">
+    {% csrf_token %}
+    {% for person in person_set.all %}
+        <input type="text" name="name" id="choice{{ forloop.counter }}" value="{{ person.id }}">
+        <input type="number" name="age" id="choice{{ forloop.counter }}" value="{{ person.age }}">
+        <input type="text" name="address" id="choice{{ forloop.counter }}" value="{{ person.address }}">
+        <input type="text" name="mobile_number" id="choice{{ forloop.counter }}" value="{{ person.mobile_number }}">
+    {% endfor %}
+    <input type="submit" value="Add">
+</form>

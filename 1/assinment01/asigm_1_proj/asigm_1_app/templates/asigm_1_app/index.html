@@ -1,0 +1,13 @@
+{% if list_people %}
+    <ul>
+        {% for id in list_people %}
+        <li>
+            <a href="{% url 'asigm_1_app:detail' person.id %}">
+                {{person.id}}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No one are available.</p>
+{% endif %}
