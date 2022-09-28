@@ -1,6 +1,6 @@
 <h1>ADD NEW USER</h1>
 
-<form action=" {% url 'asigm_1_app:add_new_user' %} " method="post">
+<form action=" {% url 'asigm_1_app:AddNewUser' %} " method="post">
     {% csrf_token %}
         <p>Name: </p><input type="text" name="name" id="person{{ forloop.counter }}" value="{{ person.name }}">
         <p>Age: </p><input type="number" name="age" id="person{{ forloop.counter }}" value="{{ person.age }}">

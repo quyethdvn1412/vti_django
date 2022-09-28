@@ -29,6 +29,4 @@ def add(request):
 def add_new_user(request):
     new_user = Person(name = request.POST['name'], age = request.POST['age'], address = request.POST['address'], mobile_number = request.POST['mobile_number'])
     new_user.save()
-    response = HttpResponse()
-    response.write("<h1>User </h1>" + request.POST['name'] + "of information added." + "</br>")
-    return HttpResponseRedirect(reverse('asigm_1_app:index.html'))
+    return HttpResponseRedirect('/asigm_1_app')
