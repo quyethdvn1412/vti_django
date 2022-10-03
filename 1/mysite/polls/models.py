@@ -14,6 +14,7 @@ class Choice(models.Model):
     def __str__(self):
         return self.choice_text
 
+
 class Person(models.Model):
     name = models.CharField(max_length=128)
     def __str__(self):
@@ -24,10 +25,17 @@ class Group(models.Model):
     members = models.ManyToManyField(Person, through='Membership')
     def __str__(self):
         return self.name
-    
 
 class Membership(models.Model):
     person = models.ForeignKey(Person, on_delete=models.CASCADE)
     group = models.ForeignKey(Group, on_delete=models.CASCADE)
     date_joined = models.DateField()
     invite_reason = models.CharField(max_length=64)
+
+
+class Manufacturer(models.Models):
+    pass
+class CarBlue(models.Model):
+    manufacturner1 = models.ForeignKey(Manufacturer, on_delete=models.CASCADE)
+class CarRed(models.Model):
+    manufacturer2 = models.ForeignKey(Manufacturer, on_delete=models.CASCADE)
