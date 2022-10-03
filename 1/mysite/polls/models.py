@@ -17,6 +17,7 @@ class Choice(models.Model):
 
 class Person(models.Model):
     name = models.CharField(max_length=128)
+    age = models.IntegerField()
     def __str__(self):
         return self.name
 
