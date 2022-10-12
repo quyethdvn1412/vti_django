@@ -22,4 +22,6 @@ urlpatterns = [
     path('user-auth', include('user_auth.urls')),
     path('file-upload', include('file_uploader.urls')),
     path('formFromModel', include('FormFromModel.urls')),
+    path('registration', include('registration.urls')),
+    path('adv-temp/', include('adv_temp.urls')),
 ]

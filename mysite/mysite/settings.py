@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'adv_temp',
+    'registration',
     'FormFromModel',
     'file_uploader',
     'user_auth',
