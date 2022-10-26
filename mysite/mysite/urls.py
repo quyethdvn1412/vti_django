@@ -24,4 +24,6 @@ urlpatterns = [
     path('formFromModel', include('FormFromModel.urls')),
     path('registration', include('registration.urls')),
     path('adv-temp/', include('adv_temp.urls')),
+    path('redis-cache/', include('redis_cache.urls')),
+    path('login/', include('login.urls')),
 ]
