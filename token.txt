@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Date: Mon, 07 Nov 2022 15:04:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.13
+Content-Type: application/json
+Vary: Accept
+Allow: POST, OPTIONS
+X-Frame-Options: DENY
+Content-Length: 496
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NzkxOTg1OCwiaWF0IjoxNjY3ODMzNDU4LCJqdGkiOiI3MzRhNTcwZDRhNDE0ZjdhYjk5ZTRhZGVhMTI3MDMyZiIsInVzZXJfaWQiOjF9.uKuAxWXx_MDbXsWq7ueJTbJjrSUmc-HdDNOqc9uT1II",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY3ODMzNzU4LCJpYXQiOjE2Njc4MzM0NTgsImp0aSI6IjIyYWFmZWU1ZjI2ODQ5OWViNGYyZGM0Y2NkOWM1NjVkIiwidXNlcl9pZCI6MX0.-95dOOKqEW6jy5osoM5e30YtocuH_q7Qmpd8_BxsH0w"
+}HTTP/1.1 200 OK
+Date: Mon, 07 Nov 2022 15:11:00 GMT
+Server: WSGIServer/0.2 CPython/3.8.13
+Content-Type: application/json
+Vary: Accept
+Allow: POST, OPTIONS
+X-Frame-Options: DENY
+Content-Length: 496
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NzkyMDI2MCwiaWF0IjoxNjY3ODMzODYwLCJqdGkiOiJiYzYyOWE5MTY0NTA0NzM5OWQzZTdmZTM0NTNiMTQ0OSIsInVzZXJfaWQiOjF9.IsHtIc63fTXBGjtrR5yQWz-Iah7TpoZPuFLDp_BaWXk",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY3ODM0MTYwLCJpYXQiOjE2Njc4MzM4NjAsImp0aSI6ImRlNWE2YmEwZTM5ZDQyOTRhNmI2MDExZmYyNzM3YzE3IiwidXNlcl9pZCI6MX0.ZqmRyNpw9kRLHG9vVjgBoUc4Ziz2w38UQQYPtplhb1s"
+}
