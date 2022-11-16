@@ -4,7 +4,7 @@ from .models import Post
 from .forms import ImageForm
 
 class PostList(generic.ListView):
-    queryset = Post.objects.filter(status=1).order_by('-created_on')
+    queryset = Post.objects.order_by('-created_on')
     template_name = 'index.html'
 
 class PostDetail(generic.DetailView):
