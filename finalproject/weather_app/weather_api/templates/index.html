@@ -10,11 +10,13 @@
     <form method="POST">
         {% csrf_token %}
         <input type="text" placeholder="Enter your city" name="city">
+        <br><br>
+        <input type="number" placeholder="Enter the days ago (from 1 to 16)" name="numberdays">
+        <br><br>
         <button type="submit">Enter</button>
     </form>
     <h1>Location: {{city}}</h1>
     <h1>Description: {{description}}</h1>
-    <h1>Temprature: {{temp}}</h1>
-    <h1>Date: {{day}}</h1>
+    <h1>Number Days: {{numberdays}}</h1>
 </body>
 </html>
